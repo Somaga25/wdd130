@@ -2,7 +2,6 @@
   --primary-color: #055a05; /* forest green */
   --secondary-color: #f4a261; /* warm sand */
   --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -77,7 +76,7 @@ nav, p, section, article {
   float: right;
   width: 125px;
 }
-.hero article p {
+.hero article {
   background-color: rgba(38, 70, 83, 0.8);
   color: white;
   padding: 1rem;
