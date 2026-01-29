@@ -37,7 +37,7 @@ section h2 {
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 2rem 0;
 }
 
 
@@ -64,7 +64,7 @@ nav, p, section, article {
     height: auto;
   }
 
-  h1 {
+h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -83,6 +83,9 @@ nav, p, section, article {
   position: absolute;
   background-color: rgba(38, 70, 83, 0.8);
   color: white;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
   padding: 1rem;
   
 }
