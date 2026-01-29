@@ -78,8 +78,14 @@ nav, p, section, article {
   width: 125px;
 }
 .hero article {
+  position: absolute;
   background-color: rgba(38, 70, 83, 0.8);
   color: white;
   padding: 1rem;
+  
 }
+footer {
+  background-color: var(--secondary-color);
+}
+
 
