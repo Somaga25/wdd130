@@ -1,16 +1,20 @@
 :root {
-  --primary-color: #055a05; /* forest green */
-  --secondary-color: #f4a261; /* warm sand */
-  --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
+  --primary-color: #055a05;
+  /* forest green */
+  --secondary-color: #f4a261;
+  /* warm sand */
+  --accent1-color: #264653;
+  /* dark slate blue */
+  --accent2-color: #e9c46a;
+  /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-  }
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+}
 
 * {
   margin: 0;
@@ -23,34 +27,42 @@ body {
   color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
   width: 840px;
   margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
+
 section h2 {
   background-color: var(--accent1-color);
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem 0;
+  margin-top: 2rem;
 }
 
-
-nav, p, section, article {
+nav,
+p,
+section,
+article {
   margin: 16px;
   padding: 8px;
 }
 
 .socialmedia a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .socialmedia img {
-  width: 32px;   /* or 24px / 40px */
+  width: 32px;
+  /* or 24px / 40px */
   height: auto;
 }
 
@@ -59,12 +71,12 @@ nav, p, section, article {
 }
 
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -72,13 +84,15 @@ h1 {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+  color: #fff;
+  /* white text – make sure there is enough contrast with the background-color */
 }
 
 .hero article img {
   float: right;
   width: 125px;
 }
+
 .hero article {
   position: absolute;
   background-color: rgba(38, 70, 83, 0.8);
@@ -87,10 +101,9 @@ h1 {
   left: 20px;
   right: 20px;
   padding: 1rem;
-  
+
 }
+
 footer {
   background-color: var(--secondary-color);
 }
-
-
