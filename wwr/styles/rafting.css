@@ -88,6 +88,12 @@ article {
   /* white text – make sure there is enough contrast with the background-color */
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .hero article img {
   float: right;
   width: 125px;
