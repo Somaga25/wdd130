@@ -5,6 +5,8 @@
   --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", Georgia, serif;
   --body-font: Arial, Helvetica, sans-serif;
+  --text-light: #ffffff;
+  --overlay-dark: #264653d9; /* replaces rgba(38,70,83,0.85) */
 }
 
 *,
@@ -81,8 +83,9 @@ main {
   top: 20px;
   width: 100%;
   text-align: center;
-  background-color: rgba(38, 70, 83, 0.85);
-  color: #ffffff;
+  background-color: var(--overlay-dark);
+  color: var(--text-light);
+}
   padding: 1rem;
   font-family: var(--heading-font);
 }
@@ -92,8 +95,8 @@ main {
   bottom: 20px;
   left: 20px;
   right: 20px;
-  background-color: rgba(38, 70, 83, 0.85);
-  color: #ffffff;
+  background-color: var(--overlay-dark);
+  color: var(--text-light);
   padding: 1rem;
 }
 
@@ -111,7 +114,7 @@ section {
 h2 {
   font-family: var(--heading-font);
   background-color: var(--accent1-color);
-  color: #ffffff;
+  color: var(--text-light)
   text-align: center;
   padding: 1rem;
 }
