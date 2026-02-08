@@ -1,17 +1,14 @@
 :root {
-  --primary-color: #055a05;       
-  --secondary-color: #f4a261;     
-  --accent1-color: #264653;       
-  --accent2-color: #e9c46a;       
-
-  --text-light: #ffffff;
-  --overlay-dark: #264653d9;  
-
+  --primary-color: #055a05;
+  --secondary-color: #f4a261;
+  --accent1-color: #264653;
+  --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", Georgia, serif;
   --body-font: Arial, Helvetica, sans-serif;
+  --text-light: #ffffff;
+  --overlay-dark: #264653d9; /* replaces rgba(38,70,83,0.85) */
 }
 
-/* RESET */
 *,
 *::before,
 *::after {
@@ -20,7 +17,6 @@
   box-sizing: border-box;
 }
 
-/* BODY */
 body {
   font-family: var(--body-font);
 }
@@ -37,12 +33,16 @@ header {
   margin: 0 auto;
 }
 
+header,
+header * {
+  color: var(--accent2-color);
+}
+
 header img {
   width: 120px;
   height: auto;
 }
 
-/* NAVIGATION */
 nav {
   display: flex;
   justify-content: flex-end;
@@ -64,8 +64,8 @@ nav a:hover {
 /* MAIN */
 main {
   max-width: 840px;
-  margin: 0 auto;
   color: var(--accent1-color);
+  margin: 0 auto;
 }
 
 /* HERO */
@@ -85,6 +85,7 @@ main {
   text-align: center;
   background-color: var(--overlay-dark);
   color: var(--text-light);
+}
   padding: 1rem;
   font-family: var(--heading-font);
 }
@@ -110,11 +111,10 @@ section {
   margin: 2rem 0;
 }
 
-/* HEADINGS */
 h2 {
   font-family: var(--heading-font);
   background-color: var(--accent1-color);
-  color: var(--text-light);
+  color: var(--text-light)
   text-align: center;
   padding: 1rem;
 }
