@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Exciting Expeditions</title>
+  <meta name="author" content="Chisomaga Chiwuikem Eke">
+  <meta name="description"
+    content="Contact Exciting Expeditions for rafting reservations, general inquiries, or website suggestions.">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+  <!-- HEADER (UNCHANGED) -->
+  <header>
+    <img src="images/rafting.jpg" alt="Logo of Exciting Expeditions company">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- COMPANY INFO -->
+    <section class="contact-info">
+      <h1>White Water Rafting Company</h1>
+      <p>123 Main River Street</p>
+      <p>Kolob, California</p>
+      <p>+1 999 999 9999</p>
+      <p>info@whitewater.com</p>
+    </section>
+
+    <!-- MAP + FORM -->
+    <section class="contact-layout">
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.4194156846813!3d37.77492927975992"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <fieldset>
+          <legend>Message Purpose</legend>
+
+          <label>
+            <input type="radio" name="purpose" value="general" required>
+            General Inquiry
+          </label>
+
+          <label>
+            <input type="radio" name="purpose" value="reservation">
+            Reservation Question
+          </label>
+
+          <label>
+            <input type="radio" name="purpose" value="suggestion">
+            Website Suggestion
+          </label>
+        </fieldset>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <label class="checkbox">
+          <input type="checkbox" name="subscribe">
+          Please subscribe me to the monthly newsletter
+        </label>
+
+        <button type="submit">Get in Touch!</button>
+      </form>
+
+    </section>
+
+    <!-- EMPLOYEES -->
+    <section class="employees">
+      <h2>We Are Here to Serve You</h2>
+
+      <figure>
+        <img src="images/employee1.jpg" alt="Senior rafting guide">
+        <figcaption>Senior Rafting Guide</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/employee2.jpg" alt="Operations manager">
+        <figcaption>Operations Manager</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/employee3.jpg" alt="Customer support lead">
+        <figcaption>Customer Support Lead</figcaption>
+      </figure>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>© 2026 Exciting Expeditions | Chisomaga Chiwuikem Eke</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="facebook icon">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.png" alt="instagram icon">
+      </a>
+      <a href="https://x.com">
+        <img src="images/twitter.png" alt="X (formerly Twitter) icon">
+      </a>
+    </nav>
+  </footer>
+
+</body>
+</html>
