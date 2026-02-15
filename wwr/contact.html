@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Us | Exciting Expeditions</title>
-  <meta name="description" content="Contact Exciting Expeditions for rafting reservations, inquiries, or website suggestions.">
+  <meta name="description" content="Contact Exciting Expeditions for rafting reservations, general inquiries, or website suggestions.">
   <meta name="author" content="Chisomaga Chiwuikem Eke">
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -25,41 +25,44 @@
   <!-- MAIN -->
   <main>
 
-    <!-- PAGE TITLE -->
     <h1>Exciting Expeditions</h1>
 
-    <!-- COMPANY INFORMATION -->
+    <!-- COMPANY INFO -->
     <section>
       <h2>Contact Information</h2>
+      <p>
+        Address: 123 River Adventure Road, Rapids City<br>
+        Phone: +1 (555) 123-4567<br>
+        Email: info@excitingexpeditions.com
+      </p>
 
-      <p><strong>Address:</strong> 123 River Road, California</p>
-      <p><strong>Phone:</strong> +1 999 999 9999</p>
-      <p><strong>Email:</strong> info@excitingexpeditions.com</p>
-
-      <!-- GOOGLE MAP -->
+      <!-- GOOGLE MAP (NO INLINE STYLES) -->
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093746!2d-122.42067968468128!3d37.77851927975756"
-        loading="lazy">
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086617097387!2d-122.41941568468138!3d37.77492927975945"
+        width="100%"
+        height="300"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </section>
 
     <!-- EMPLOYEES -->
     <section>
-      <h2>Our Team</h2>
+      <h2>Meet Our Team</h2>
 
       <figure>
         <img src="images/employee1.jpg" alt="Senior rafting guide">
-        <figcaption>Senior Rafting Guide</figcaption>
+        <figcaption>Alex Morgan – Senior Rafting Guide</figcaption>
       </figure>
 
       <figure>
         <img src="images/employee2.jpg" alt="Operations manager">
-        <figcaption>Operations Manager</figcaption>
+        <figcaption>Jamie Lee – Operations Manager</figcaption>
       </figure>
 
       <figure>
         <img src="images/employee3.jpg" alt="Customer support lead">
-        <figcaption>Customer Support Lead</figcaption>
+        <figcaption>Taylor Smith – Customer Support Lead</figcaption>
       </figure>
     </section>
 
@@ -69,12 +72,15 @@
 
       <form action="#" method="post">
 
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+        <!-- NAME -->
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
 
-        <label for="email">Email</label>
+        <!-- EMAIL -->
+        <label for="email">Email Address</label>
         <input type="email" id="email" name="email" required>
 
+        <!-- PURPOSE -->
         <fieldset>
           <legend>Purpose of Message</legend>
 
@@ -94,14 +100,17 @@
           </label>
         </fieldset>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <!-- MESSAGE -->
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
+        <!-- NEWSLETTER -->
         <label for="newsletter">
           <input type="checkbox" id="newsletter" name="newsletter">
           Please subscribe me to the monthly newsletter
         </label>
 
+        <!-- SUBMIT -->
         <button type="submit">Send Message</button>
 
       </form>
@@ -112,7 +121,6 @@
   <!-- FOOTER -->
   <footer>
     <p>© 2026 Exciting Expeditions | Chisomaga Chiwuikem Eke</p>
-
     <nav class="socialmedia">
       <a href="https://facebook.com">
         <img src="images/facebook.png" alt="facebook icon">
